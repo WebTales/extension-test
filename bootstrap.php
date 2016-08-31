@@ -12,3 +12,6 @@ config(["resourceNamespaces"=>$currentResources]);
 
 //test provider integration
 $app->register(App\Extensions\ExtensionTest\Providers\ExtensionProvider::class);
+
+//test controller integration
+$app->get('/test', 'App\Extensions\ExtensionTest\Controllers\TestController@index');
