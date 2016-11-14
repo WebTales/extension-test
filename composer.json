@@ -2,8 +2,8 @@
   "name": "webtales/ExtensionTest",
   "minimum-stability": "dev",
   "require": {
-    "webtales/alambic-connector-diffbot": "dev-master",
-    "webtales/alambic-connector-mongodb": "dev-master"
+    "ampize/alambic-connector-diffbot": "dev-master",
+    "ampize/alambic-connector-mongodb": "dev-master"
   },
   "type":"library",
   "config": {
